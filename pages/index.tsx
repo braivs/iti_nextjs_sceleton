@@ -1,4 +1,5 @@
 import { HeadMeta } from '@/components/HeadMeta/HeadMeta'
+import { Navbar } from '@/components/Navbar/Navbar'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
 
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <HeadMeta title={'Create Next App'} />
       <main className={`${styles.main} ${inter.className}`}>
+        <Navbar />
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;

@@ -1,4 +1,5 @@
 import { HeadMeta } from '@/components/HeadMeta/HeadMeta'
+import { Navbar } from '@/components/Navbar/Navbar'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
@@ -10,7 +11,10 @@ export default function Home() {
   return (
     <>
       <HeadMeta title={'SignIn'} />
-      <main className={`${styles.main} ${inter.className}`}>SignIn</main>
+      <main className={`${styles.main} ${inter.className}`}>
+        <Navbar />
+        SignIn
+      </main>
     </>
   )
 }
