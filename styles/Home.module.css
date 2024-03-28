@@ -1,10 +1,11 @@
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   padding: 6rem;
   min-height: 100vh;
+  gap: 200px;
 }
 
 .description {

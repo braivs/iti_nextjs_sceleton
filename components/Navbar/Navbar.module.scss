@@ -1,8 +1,9 @@
 .links {
-    display: flex;
-    column-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
 
-    & a:hover {
-        color: #2e2ef3;
-    }
+  & a:hover {
+    color: #2e2ef3;
+  }
 }
