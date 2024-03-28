@@ -1,20 +1,14 @@
 import { HeadMeta } from '@/components/HeadMeta/HeadMeta'
-import { Navbar } from '@/components/Navbar/Navbar'
-import { Inter } from 'next/font/google'
-import Head from 'next/head'
+import { getLayout } from '@/components/Layout/Layout'
 
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+function Profile() {
   return (
     <>
       <HeadMeta title={'Profile'} />
-      <main className={`${styles.main} ${inter.className}`}>
-        <Navbar />
-        Profile
-      </main>
+      <div>Profile</div>
     </>
   )
 }
+
+Profile.getLayout = getLayout
+export default Profile
