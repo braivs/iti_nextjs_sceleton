@@ -4,7 +4,7 @@ import { getLayout } from '@/components/Layout/Layout'
 function Home() {
   return (
     <>
-      <HeadMeta title={'Create Next App'} />
+      <HeadMeta title={'Home'} />
       <div>Home</div>
     </>
   )
